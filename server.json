@@ -1,36 +1,68 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2025-01-15T19:31:48.200Z"
-        },
-        {
-            "id": 2,
-            "description": "Hamburguer",
-            "type": "outcome",
-            "category": "Alimentação",
-            "price": 50,
-            "createdAt": "2025-01-15T19:31:46.200Z"
-        },
-        {
-            "id": 3,
-            "description": "Nootebook",
-            "type": "outcome",
-            "category": "Investimento",
-            "price": 2500,
-            "createdAt": "2025-01-14T19:31:46.200Z"
-        },
-        {
-            "id": 4,
-            "description": "Pagamento Salário",
-            "type": "income",
-            "category": "Salario",
-            "price": 5000,
-            "createdAt": "2025-01-14T19:31:46.200Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Venda site PsicoSchedule",
+      "type": "income",
+      "category": "Venda",
+      "price": 15000,
+      "createdAt": "2025-01-15T19:31:48.200Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2025-01-15T19:31:46.200Z"
+    },
+    {
+      "id": 3,
+      "description": "Nootebook",
+      "type": "outcome",
+      "category": "Tecnologia",
+      "price": 2500,
+      "createdAt": "2025-01-14T19:31:46.200Z"
+    },
+    {
+      "id": 4,
+      "description": "Pagamento Salário",
+      "type": "income",
+      "category": "Salario",
+      "price": 1200,
+      "createdAt": "2025-01-14T19:31:46.200Z"
+    },
+    {
+      "id": 5,
+      "description": "Kank 20g",
+      "type": "outcome",
+      "category": "Lombra",
+      "price": 1200,
+      "createdAt": "2025-01-13T19:31:46.200Z"
+    },
+    {
+      "id": 6,
+      "description": "Moscow Mule",
+      "type": "outcome",
+      "category": "Bebidas",
+      "price": 20,
+      "createdAt": "2025-01-16T19:31:46.200Z"
+    },
+    {
+      "description": "Teclado hyperx",
+      "type": "outcome",
+      "category": "Tecnologia",
+      "price": 1900,
+      "createdAt": "2025-01-16T17:39:26.064Z",
+      "id": 7
+    },
+    {
+      "description": "Cerveja Brahma",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 16,
+      "createdAt": "2025-01-16T17:55:15.424Z",
+      "id": 8
+    }
+  ]
 }

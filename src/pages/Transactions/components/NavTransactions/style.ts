@@ -53,7 +53,7 @@ export const NavTransactionsButton = styled.button<NavTransactionsButtonProps>`
 
 
     color: ${(props) =>
-      props.variant === "active" ? props.theme.white : props.theme["gray-500"]} !important;
+    props.variant === "active" ? props.theme.white : props.theme["gray-500"]} !important;
     
 
 `;
