@@ -34,9 +34,9 @@
     },
     {
       "id": 5,
-      "description": "Kank 20g",
+      "description": "Ifood",
       "type": "outcome",
-      "category": "Lombra",
+      "category": "Alimentação",
       "price": 1200,
       "createdAt": "2025-01-13T19:31:46.200Z"
     },
@@ -63,6 +63,22 @@
       "price": 16,
       "createdAt": "2025-01-16T17:55:15.424Z",
       "id": 8
+    },
+    {
+      "description": "Teclado Redragon",
+      "type": "outcome",
+      "category": "Tecnologia",
+      "price": 800,
+      "createdAt": "2025-01-16T18:37:50.028Z",
+      "id": 9
+    },
+    {
+      "description": "Ifood",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 200,
+      "createdAt": "2025-01-16T18:52:07.164Z",
+      "id": 10
     }
   ]
 }
