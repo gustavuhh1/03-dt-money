@@ -26,7 +26,8 @@ export function Summary() {
         <strong>{priceFormatter.format(summary.outcome)}</strong>
       </SummaryCard>
 
-      <SummaryCard variant="green">
+
+      <SummaryCard variantPrice={summary.total < 0 ? 'negative' : 'positive'}>
         <header>
           <span>Total</span>
           <CurrencyDollar size={32} color="#fff" />
