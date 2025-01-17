@@ -1,50 +1,64 @@
-# React + TypeScript + Vite
+# 💰 DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao **DT Money**! Este é um projeto de um gestor de finanças desenvolvido com o objetivo de aprendizado em React.js. 🚀
 
-Currently, two official plugins are available:
+## 📚 O que foi aprendido
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Durante o desenvolvimento deste projeto, foram abordados diversos conceitos e práticas importantes, incluindo:
 
-## Expanding the ESLint configuration
+### ⚛️ React.js
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Componentização**: Dividimos a aplicação em componentes reutilizáveis para facilitar a manutenção e a escalabilidade.
+- **Hooks**: Utilizamos hooks como `useState`, `useEffect` e `useContext` para gerenciar o estado e os efeitos colaterais.
+- **Context API**: Implementamos a Context API para compartilhar dados entre componentes sem a necessidade de prop drilling.
 
-- Configure the top-level `parserOptions` property like this:
+### 💅 Styled Components
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- **Estilização**: Utilizamos a biblioteca `styled-components` para criar estilos encapsulados e dinâmicos, permitindo uma melhor organização e manutenção do CSS.
+
+### 📈 Performance
+
+- **useMemo**: Utilizamos o hook `useMemo` para memorizar valores calculados e evitar cálculos desnecessários em cada renderização.
+- **useCallback**: Utilizamos o hook `useCallback` para memorizar funções e evitar a recriação delas em cada renderização.
+
+### 📦 Axios
+
+- **Requisições HTTP**: Utilizamos a biblioteca `axios` para realizar requisições HTTP e consumir uma API fake criada com `json-server`.
+
+### 🛠️ Ferramentas e Configurações
+
+- **ESLint**: Configuramos o ESLint para garantir a qualidade do código e seguir boas práticas.
+- **TypeScript**: Utilizamos TypeScript para adicionar tipagem estática ao JavaScript, aumentando a segurança e a previsibilidade do código.
+- **Vite**: Utilizamos o Vite como bundler para um desenvolvimento mais rápido e eficiente.
+
+## 🚀 Como executar o projeto
+
+1. Clone o repositório:
+
+```sh
+  git clone https://github.com/seu-usuario/dt-money.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. Instale as dependências:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```sh
+  npm install
 ```
+
+3. Inicie o servidor de desenvolvimento:
+
+```sh
+  npm run dev
+```
+
+4. Inicie o servidor JSON:
+
+```sh
+  npm run dev:server
+```
+
+## 📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+````markdown
+Feito com ❤️ por [Gustavo](https://github.com/gustavuhh1) durante o curso da [Rocketseat](https://www.rocketseat.com.br).
